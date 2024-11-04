@@ -17,7 +17,7 @@ data['ValidPost'] = data.loc[:,'Post1':'Post48'].count(axis=1)
 data['ValidAll'] = data.loc[:,'Pre48':'Post48'].count(axis=1)
 
 # Fill missing values of PostMths with zeros
-data['PostMths'].fillna(0, inplace=True)
+data['PostMths'] = data['PostMths'].fillna(0)
 data['PreDurMths'] = data['PreMths'] + data['DuringMths']
 
 # Note the first valid month in the data, measured from 10th birthday
