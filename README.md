@@ -1,7 +1,7 @@
 # GangsMatrixShuffle
 
-This repo contains code to implement and demonstrate the 'shuffle' method for examining the effectiveness of the Gangs Matrix.
+This repo contains code to implement and demonstrate the 'shuffle' method for examining the effectiveness of the London Gangs Matrix.
 
-You will find:
+The approach is primarily outlined via a series of Notebooks:
 
-- [Notebooks](notebooks) giving demonstrations.
+- [Gangs Matrix - Shuffle Analysis.ipynb]("notebooks/Gangs Matrix - Shuffle Analysis.ipynb") provides a demonstration of the core approach, along with key results for the London data.
